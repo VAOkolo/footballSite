@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+td, th{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+}
+
+tr :hover{
+    background-color: red;
+    color: white;
+}
