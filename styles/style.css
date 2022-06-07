@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 table{
     border-collapse: collapse;
     width: 100%;
@@ -14,3 +19,44 @@ tr :hover{
     background-color: red;
     color: white;
 }
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: red;
+}
+
+.arsenalImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
